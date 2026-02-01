@@ -8,7 +8,8 @@ import QuestionCard from "@/components/QuestionCard";
 import CompatibilityResult from "@/components/CompatibilityResult";
 import { loveQuestions } from "@/data/questions";
 import axios from "axios";
-const url="http://localhost:5000/api"
+// const url="http://localhost:5000/api"
+const url="https://love-sync-main-2.onrender.com/api"
 
 type GameState = "landing" | "qr-display" | "name-input" | "questions" | "waiting" | "results";
 
